@@ -1,0 +1,861 @@
+-- Instances:
+
+local RoChatBoom = Instance.new("ScreenGui")
+local INFO = Instance.new("ImageLabel")
+local Bg = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Label = Instance.new("TextLabel")
+local Label_2 = Instance.new("TextLabel")
+local Teleport = Instance.new("ImageLabel")
+local Bg_2 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Label_3 = Instance.new("TextLabel")
+local Label_4 = Instance.new("TextLabel")
+local TextButton_6 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local TextButton_7 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local TextButton_8 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TextButton_9 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local ServerInformations = Instance.new("ImageLabel")
+local Bg_3 = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local Label_5 = Instance.new("TextLabel")
+local Label_6 = Instance.new("TextLabel")
+local Label_7 = Instance.new("TextLabel")
+local Label_8 = Instance.new("TextLabel")
+local Label_9 = Instance.new("TextLabel")
+local Label_10 = Instance.new("TextLabel")
+local Label_11 = Instance.new("TextLabel")
+
+--Properties:
+
+RoChatBoom.Name = "RoChatBoom"
+RoChatBoom.Parent = game.CoreGui
+RoChatBoom.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+INFO.Name = "INFO"
+INFO.Parent = RoChatBoom
+INFO.AnchorPoint = Vector2.new(0.5, 0.5)
+INFO.BackgroundTransparency = 1.000
+INFO.Position = UDim2.new(0.173387051, 0, 0.918699205, 5)
+INFO.Size = UDim2.new(0.34677428, 0, 0.146341458, 0)
+INFO.ZIndex = -1
+INFO.Image = "rbxassetid://6653510046"
+INFO.ImageTransparency = 0.500
+INFO.ScaleType = Enum.ScaleType.Slice
+INFO.SliceCenter = Rect.new(33, 33, 33, 33)
+
+Bg.Name = "Bg"
+Bg.Parent = INFO
+Bg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bg.BackgroundTransparency = 0.400
+Bg.Position = UDim2.new(0.0225273669, 0, 0.133333325, 0)
+Bg.Size = UDim2.new(0.954553068, 0, 0.722222209, 0)
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = Bg
+
+Label.Name = "Label"
+Label.Parent = Bg
+Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label.BackgroundTransparency = 1.000
+Label.Position = UDim2.new(0.0341082439, 0, 0.169230774, 0)
+Label.Size = UDim2.new(0.928231537, 0, 0.261538476, 0)
+Label.Font = Enum.Font.GothamBold
+Label.Text = "RoChat Destroyer V2."
+Label.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label.TextScaled = true
+Label.TextSize = 14.000
+Label.TextWrapped = true
+Label.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_2.Name = "Label"
+Label_2.Parent = Bg
+Label_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_2.BackgroundTransparency = 1.000
+Label_2.Position = UDim2.new(0.0341082439, 0, 0.41538462, 0)
+Label_2.Size = UDim2.new(0.928231537, 0, 0.41538462, 0)
+Label_2.Font = Enum.Font.Gotham
+Label_2.Text = "Thanks for using RoChat Destroyer! We Just patched the anti cheat so you can't get detected, Have Fun!"
+Label_2.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_2.TextScaled = true
+Label_2.TextSize = 14.000
+Label_2.TextWrapped = true
+Label_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Teleport.Name = "Teleport"
+Teleport.Parent = RoChatBoom
+Teleport.AnchorPoint = Vector2.new(0.5, 0.5)
+Teleport.BackgroundTransparency = 1.000
+Teleport.Position = UDim2.new(0.872580528, 0, 0.762601614, 5)
+Teleport.Size = UDim2.new(0.235483974, 0, 0.416260153, 0)
+Teleport.ZIndex = -1
+Teleport.Image = "rbxassetid://6653510046"
+Teleport.ImageTransparency = 0.500
+Teleport.ScaleType = Enum.ScaleType.Slice
+Teleport.SliceCenter = Rect.new(33, 33, 33, 33)
+
+Bg_2.Name = "Bg"
+Bg_2.Parent = Teleport
+Bg_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bg_2.BackgroundTransparency = 0.400
+Bg_2.Position = UDim2.new(0.0225273985, 0, 0.0513020754, 0)
+Bg_2.Size = UDim2.new(0.954553068, 0, 0.897916675, 0)
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = Bg_2
+
+TextButton.Parent = Bg_2
+TextButton.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton.Position = UDim2.new(0.0446043015, 0, 0.123982161, 0)
+TextButton.Size = UDim2.new(0, 123, 0, 20)
+TextButton.Font = Enum.Font.Gotham
+TextButton.Text = "Obby:1"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = TextButton
+
+TextButton_2.Parent = Bg_2
+TextButton_2.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_2.Position = UDim2.new(0.0446043015, 0, 0.240485474, 0)
+TextButton_2.Size = UDim2.new(0, 123, 0, 20)
+TextButton_2.Font = Enum.Font.Gotham
+TextButton_2.Text = "Obby:2"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = TextButton_2
+
+TextButton_3.Parent = Bg_2
+TextButton_3.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_3.Position = UDim2.new(0.513676167, 0, 0.123982072, 0)
+TextButton_3.Size = UDim2.new(0, 123, 0, 19)
+TextButton_3.Font = Enum.Font.Gotham
+TextButton_3.Text = "Obby:3"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = TextButton_3
+
+TextButton_4.Parent = Bg_2
+TextButton_4.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_4.Position = UDim2.new(0.513676107, 0, 0.240485474, 0)
+TextButton_4.Size = UDim2.new(0, 123, 0, 20)
+TextButton_4.Font = Enum.Font.Gotham
+TextButton_4.Text = "Loop TP"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 14.000
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = TextButton_4
+
+TextButton_5.Parent = Bg_2
+TextButton_5.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_5.Position = UDim2.new(0.0446043015, 0, 0.750432253, 0)
+TextButton_5.Size = UDim2.new(0, 123, 0, 20)
+TextButton_5.Font = Enum.Font.Gotham
+TextButton_5.Text = "Sign:1"
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 14.000
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = TextButton_5
+
+Label_3.Name = "Label"
+Label_3.Parent = Bg_2
+Label_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_3.BackgroundTransparency = 1.000
+Label_3.Position = UDim2.new(0.0412838049, 0, 0.0474210232, 0)
+Label_3.Size = UDim2.new(0.928231537, 0, 0.0744735375, 0)
+Label_3.Font = Enum.Font.GothamBold
+Label_3.Text = "Obbys"
+Label_3.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_3.TextScaled = true
+Label_3.TextSize = 14.000
+Label_3.TextWrapped = true
+Label_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_4.Name = "Label"
+Label_4.Parent = Bg_2
+Label_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_4.BackgroundTransparency = 1.000
+Label_4.Position = UDim2.new(0.0412838049, 0, 0.6738711, 0)
+Label_4.Size = UDim2.new(0.928231537, 0, 0.0744735375, 0)
+Label_4.Font = Enum.Font.GothamBold
+Label_4.Text = "Signs"
+Label_4.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_4.TextScaled = true
+Label_4.TextSize = 14.000
+Label_4.TextWrapped = true
+Label_4.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton_6.Parent = Bg_2
+TextButton_6.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_6.Position = UDim2.new(0.0481920689, 0, 0.566761613, 0)
+TextButton_6.Size = UDim2.new(0, 253, 0, 20)
+TextButton_6.Font = Enum.Font.Gotham
+TextButton_6.Text = "Un Loop TP"
+TextButton_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.TextSize = 14.000
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = TextButton_6
+
+TextButton_7.Parent = Bg_2
+TextButton_7.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_7.Position = UDim2.new(0.511006117, 0, 0.750432253, 0)
+TextButton_7.Size = UDim2.new(0, 123, 0, 20)
+TextButton_7.Font = Enum.Font.Gotham
+TextButton_7.Text = "Sign:2"
+TextButton_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.TextSize = 14.000
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = TextButton_7
+
+TextButton_8.Parent = Bg_2
+TextButton_8.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_8.Position = UDim2.new(0.0446043611, 0, 0.344893843, 0)
+TextButton_8.Size = UDim2.new(0, 251, 0, 20)
+TextButton_8.Font = Enum.Font.Gotham
+TextButton_8.Text = "Loop TP V2"
+TextButton_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.TextSize = 14.000
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = TextButton_8
+
+TextButton_9.Parent = Bg_2
+TextButton_9.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+TextButton_9.Position = UDim2.new(0.0446043611, 0, 0.453652531, 0)
+TextButton_9.Size = UDim2.new(0, 251, 0, 20)
+TextButton_9.Font = Enum.Font.Gotham
+TextButton_9.Text = "Loop TP V3"
+TextButton_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.TextSize = 14.000
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = TextButton_9
+
+ServerInformations.Name = "ServerInformations"
+ServerInformations.Parent = RoChatBoom
+ServerInformations.AnchorPoint = Vector2.new(0.5, 0.5)
+ServerInformations.BackgroundTransparency = 1.000
+ServerInformations.Position = UDim2.new(0.889515996, 0, 0.489430904, 5)
+ServerInformations.Size = UDim2.new(0.201613009, 0, 0.172357723, 0)
+ServerInformations.ZIndex = -1
+ServerInformations.Image = "rbxassetid://6653510046"
+ServerInformations.ImageTransparency = 0.500
+ServerInformations.ScaleType = Enum.ScaleType.Slice
+ServerInformations.SliceCenter = Rect.new(33, 33, 33, 33)
+
+Bg_3.Name = "Bg"
+Bg_3.Parent = ServerInformations
+Bg_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Bg_3.BackgroundTransparency = 0.400
+Bg_3.Position = UDim2.new(0.0225273985, 0, 0.0513020754, 0)
+Bg_3.Size = UDim2.new(0.954553068, 0, 0.897916675, 0)
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = Bg_3
+
+Label_5.Name = "Label"
+Label_5.Parent = Bg_3
+Label_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_5.BackgroundTransparency = 1.000
+Label_5.Position = UDim2.new(0.0287125986, 0, 0.0789404735, 0)
+Label_5.Size = UDim2.new(0.928231537, 0, 0.207935199, 0)
+Label_5.Font = Enum.Font.GothamBold
+Label_5.Text = "Server Informations"
+Label_5.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_5.TextScaled = true
+Label_5.TextSize = 14.000
+Label_5.TextWrapped = true
+Label_5.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_6.Name = "Label"
+Label_6.Parent = Bg_3
+Label_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_6.BackgroundTransparency = 1.000
+Label_6.Position = UDim2.new(0.0287125986, 0, 0.431990385, 0)
+Label_6.Size = UDim2.new(0.928231537, 0, 0.104722373, 0)
+Label_6.Font = Enum.Font.Gotham
+Label_6.Text = "Players:"
+Label_6.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_6.TextScaled = true
+Label_6.TextSize = 14.000
+Label_6.TextWrapped = true
+Label_6.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_7.Name = "Label"
+Label_7.Parent = Bg_3
+Label_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_7.BackgroundTransparency = 1.000
+Label_7.Position = UDim2.new(0.0287125986, 0, 0.535684705, 0)
+Label_7.Size = UDim2.new(0.928231537, 0, 0.104722373, 0)
+Label_7.Font = Enum.Font.Gotham
+Label_7.Text = "RunTime: "
+Label_7.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_7.TextScaled = true
+Label_7.TextSize = 14.000
+Label_7.TextWrapped = true
+Label_7.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_8.Name = "Label"
+Label_8.Parent = Bg_3
+Label_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_8.BackgroundTransparency = 1.000
+Label_8.Position = UDim2.new(0.0287125986, 0, 0.639379323, 0)
+Label_8.Size = UDim2.new(0.928231537, 0, 0.104722373, 0)
+Label_8.Font = Enum.Font.Gotham
+Label_8.Text = "JobId: "
+Label_8.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_8.TextScaled = true
+Label_8.TextSize = 14.000
+Label_8.TextWrapped = true
+Label_8.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_9.Name = "Label"
+Label_9.Parent = Bg_3
+Label_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_9.BackgroundTransparency = 1.000
+Label_9.Position = UDim2.new(0.0287125986, 0, 0.743072987, 0)
+Label_9.Size = UDim2.new(0.928231537, 0, 0.104722373, 0)
+Label_9.Font = Enum.Font.Gotham
+Label_9.Text = "RobloxLocaleId: "
+Label_9.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_9.TextScaled = true
+Label_9.TextSize = 14.000
+Label_9.TextWrapped = true
+Label_9.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_10.Name = "Label"
+Label_10.Parent = Bg_3
+Label_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_10.BackgroundTransparency = 1.000
+Label_10.Position = UDim2.new(0.0287125986, 0, 0.846766949, 0)
+Label_10.Size = UDim2.new(0.928231537, 0, 0.104722373, 0)
+Label_10.Font = Enum.Font.Gotham
+Label_10.Text = "SystemLocaleId: "
+Label_10.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_10.TextScaled = true
+Label_10.TextSize = 14.000
+Label_10.TextWrapped = true
+Label_10.TextXAlignment = Enum.TextXAlignment.Left
+
+Label_11.Name = "Label"
+Label_11.Parent = Bg_3
+Label_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label_11.BackgroundTransparency = 1.000
+Label_11.Position = UDim2.new(0.0287125986, 0, 0.286875755, 0)
+Label_11.Size = UDim2.new(0.928231537, 0, 0.135982469, 0)
+Label_11.Font = Enum.Font.GothamBold
+Label_11.Text = "Default"
+Label_11.TextColor3 = Color3.fromRGB(120, 120, 120)
+Label_11.TextScaled = true
+Label_11.TextSize = 14.000
+Label_11.TextWrapped = true
+Label_11.TextXAlignment = Enum.TextXAlignment.Left
+
+-- Scripts:
+
+local function TFJG_fake_script() -- Label.Fade 
+	local script = Instance.new('LocalScript', Label)
+
+	wait(10)
+	while true do
+		script.Parent.TextTransparency += .01
+		wait(.001)
+	end
+end
+coroutine.wrap(TFJG_fake_script)()
+local function CCBLTF_fake_script() -- Label_2.Fade 
+	local script = Instance.new('LocalScript', Label_2)
+
+	wait(10)
+	while true do
+		script.Parent.TextTransparency += .01
+		wait(.001)
+	end
+end
+coroutine.wrap(CCBLTF_fake_script)()
+local function AFDG_fake_script() -- Bg.Fade 
+	local script = Instance.new('LocalScript', Bg)
+
+	wait(10)
+	while true do
+		script.Parent.BackgroundTransparency += .01
+		wait(.001)
+	end
+end
+coroutine.wrap(AFDG_fake_script)()
+local function JMUPO_fake_script() -- Bg.UnVisable 
+	local script = Instance.new('LocalScript', Bg)
+
+	wait(20)
+	script.Parent.Parent:Destroy()
+end
+coroutine.wrap(JMUPO_fake_script)()
+local function OYWPX_fake_script() -- INFO.Fade 
+	local script = Instance.new('LocalScript', INFO)
+
+	wait(10)
+	while true do
+		script.Parent.ImageTransparency += .01
+		wait(.001)
+	end
+end
+coroutine.wrap(OYWPX_fake_script)()
+local function QLFT_fake_script() -- TextButton.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(.001)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-145.70433, -4.09154224, 159.600967, -0.145359203, 2.16264162e-08, 0.989378929, -3.59013228e-08, 1, -2.71331864e-08, -0.989378929, -3.94640729e-08, -0.145359203)
+	end)
+end
+coroutine.wrap(QLFT_fake_script)()
+local function PPAS_fake_script() -- TextButton_2.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(.001)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(62.5024529, -22.270771, -51.973259, 0.998430669, -1.8933294e-08, -0.0560021959, 2.48263827e-08, 1, 1.04533882e-07, 0.0560021959, -1.05760165e-07, 0.998430669)
+	end)
+end
+coroutine.wrap(PPAS_fake_script)()
+local function IIPUTWF_fake_script() -- TextButton_3.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(.001)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.0861397, 14.5400867, 394.360626, -0.146767333, 1.07386079e-07, -0.989171028, -6.49389362e-11, 1, 1.08571328e-07, 0.989171028, 1.59989604e-08, -0.146767333)
+	end)
+end
+coroutine.wrap(IIPUTWF_fake_script)()
+local function HFWNHUT_fake_script() -- TextButton_4.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.5853653, 8.25884628, 156.76564, -0.00193859555, 1.0485369e-07, 0.999998093, -1.40945264e-08, 1, -1.04881209e-07, -0.999998093, -1.42978225e-08, -0.00193859555)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.0670994446, 9.93628979, 98.7538528, 0.527191937, -3.45660434e-09, 0.849746227, -8.48320383e-08, 1, 5.66985427e-08, -0.849746227, -1.01976724e-07, 0.527191937)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.1352425, 7.99909401, 73.8824463, 0.934516549, 1.78119208e-08, 0.355919719, -4.8541855e-09, 1, -3.72994329e-08, -0.355919719, 3.31292362e-08, 0.934516549)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(109.237923, 9.93620396, 101.852669, -0.691835105, 7.98246536e-09, -0.722055495, -2.58252566e-08, 1, 3.57995802e-08, 0.722055495, 4.34146763e-08, -0.691835105)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.958664, 8.25884533, 155.526306, -0.949656129, 1.17719132e-08, -0.313294172, 1.12953833e-08, 1, 3.33610872e-09, 0.313294172, -3.70621589e-10, -0.949656129)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.212021, 9.93599987, 211.398941, -0.727315784, 7.59734462e-08, 0.68630296, 3.15299964e-08, 1, -7.72853781e-08, -0.68630296, -3.4571741e-08, -0.727315784)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(57.3968658, 8.25884533, 236.656494, -0.383613735, 4.83369833e-09, 0.923493624, 8.71159855e-09, 1, -1.61539782e-09, -0.923493624, 7.42541717e-09, -0.383613735)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.89193916, 9.93628883, 211.154724, 0.785543025, 1.10745741e-08, 0.618807077, -4.62789238e-08, 1, 4.08520044e-08, -0.618807077, -6.07287305e-08, 0.785543025)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4.41545057, 3.59448981, 158.711105, -0.192890048, -1.33985107e-08, -0.981220365, 2.9820264e-09, 1, -1.42411576e-08, 0.981220365, -5.67300251e-09, -0.192890048)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(21.1897812, 3.56629872, 127.8591, 0.0633729696, -9.16228799e-08, 0.997989893, 1.73603389e-08, 1, 9.07050293e-08, -0.997989893, 1.15771961e-08, 0.0633729696)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56.3496628, 3.59448981, 108.840988, 0.151933745, 5.54499779e-09, -0.988390684, -5.62183509e-08, 1, -3.03166248e-09, 0.988390684, 5.60263089e-08, 0.151933745)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6874542, 3.56629872, 126.239784, -0.4618949, -8.3322945e-08, -0.886934638, -6.3709976e-08, 1, -6.07661832e-08, 0.886934638, 2.84389969e-08, -0.4618949)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6874542, 3.56629872, 126.239784, -0.4618949, 1.25472228e-08, -0.886934638, 9.59369562e-09, 1, 9.15055409e-09, 0.886934638, -4.28238689e-09, -0.4618949)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.5056992, 3.5662992, 188.841095, -0.890786588, 4.48816664e-08, 0.454421878, 4.60520511e-08, 1, -8.49237036e-09, -0.454421878, 1.336217e-08, -0.890786588)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(55.6479149, 3.59448981, 201.788559, 0.354333282, -4.3750279e-09, 0.935119212, 2.03380934e-09, 1, 3.90793131e-09, -0.935119212, 5.17143939e-10, 0.354333282)
+			wait(.001)
+	
+		end
+	end)
+end
+coroutine.wrap(HFWNHUT_fake_script)()
+local function OYBXG_fake_script() -- TextButton_5.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(.001)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.674744, 25.7627335, 119.275513, 0.0686873421, 2.63721134e-09, 0.997638226, -1.12571655e-07, 1, 5.1070938e-09, -0.997638226, -1.12656579e-07, 0.0686873421)
+	end)
+end
+coroutine.wrap(OYBXG_fake_script)()
+local function GENWE_fake_script() -- TextButton_6.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game:GetService("TeleportService"):Teleport(6154671407)
+	end)
+end
+coroutine.wrap(GENWE_fake_script)()
+local function NKVK_fake_script() -- TextButton_7.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		wait(.001)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.7216454, 25.923254, 121.624565, 0.491531372, -3.42873356e-08, 0.870859861, 1.41115608e-08, 1, 3.14069624e-08, -0.870859861, -3.14831516e-09, 0.491531372)
+	end)
+end
+coroutine.wrap(NKVK_fake_script)()
+local function AKXUU_fake_script() -- TextButton_8.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.5853653, 8.25884628, 156.76564, -0.00193859555, 1.0485369e-07, 0.999998093, -1.40945264e-08, 1, -1.04881209e-07, -0.999998093, -1.42978225e-08, -0.00193859555)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.0670994446, 9.93628979, 98.7538528, 0.527191937, -3.45660434e-09, 0.849746227, -8.48320383e-08, 1, 5.66985427e-08, -0.849746227, -1.01976724e-07, 0.527191937)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.1352425, 7.99909401, 73.8824463, 0.934516549, 1.78119208e-08, 0.355919719, -4.8541855e-09, 1, -3.72994329e-08, -0.355919719, 3.31292362e-08, 0.934516549)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(109.237923, 9.93620396, 101.852669, -0.691835105, 7.98246536e-09, -0.722055495, -2.58252566e-08, 1, 3.57995802e-08, 0.722055495, 4.34146763e-08, -0.691835105)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.958664, 8.25884533, 155.526306, -0.949656129, 1.17719132e-08, -0.313294172, 1.12953833e-08, 1, 3.33610872e-09, 0.313294172, -3.70621589e-10, -0.949656129)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.212021, 9.93599987, 211.398941, -0.727315784, 7.59734462e-08, 0.68630296, 3.15299964e-08, 1, -7.72853781e-08, -0.68630296, -3.4571741e-08, -0.727315784)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(57.3968658, 8.25884533, 236.656494, -0.383613735, 4.83369833e-09, 0.923493624, 8.71159855e-09, 1, -1.61539782e-09, -0.923493624, 7.42541717e-09, -0.383613735)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.89193916, 9.93628883, 211.154724, 0.785543025, 1.10745741e-08, 0.618807077, -4.62789238e-08, 1, 4.08520044e-08, -0.618807077, -6.07287305e-08, 0.785543025)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4.41545057, 3.59448981, 158.711105, -0.192890048, -1.33985107e-08, -0.981220365, 2.9820264e-09, 1, -1.42411576e-08, 0.981220365, -5.67300251e-09, -0.192890048)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(21.1897812, 3.56629872, 127.8591, 0.0633729696, -9.16228799e-08, 0.997989893, 1.73603389e-08, 1, 9.07050293e-08, -0.997989893, 1.15771961e-08, 0.0633729696)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56.3496628, 3.59448981, 108.840988, 0.151933745, 5.54499779e-09, -0.988390684, -5.62183509e-08, 1, -3.03166248e-09, 0.988390684, 5.60263089e-08, 0.151933745)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6874542, 3.56629872, 126.239784, -0.4618949, -8.3322945e-08, -0.886934638, -6.3709976e-08, 1, -6.07661832e-08, 0.886934638, 2.84389969e-08, -0.4618949)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6874542, 3.56629872, 126.239784, -0.4618949, 1.25472228e-08, -0.886934638, 9.59369562e-09, 1, 9.15055409e-09, 0.886934638, -4.28238689e-09, -0.4618949)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.5056992, 3.5662992, 188.841095, -0.890786588, 4.48816664e-08, 0.454421878, 4.60520511e-08, 1, -8.49237036e-09, -0.454421878, 1.336217e-08, -0.890786588)
+			wait(.8)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(55.6479149, 3.59448981, 201.788559, 0.354333282, -4.3750279e-09, 0.935119212, 2.03380934e-09, 1, 3.90793131e-09, -0.935119212, 5.17143939e-10, 0.354333282)
+			wait(.8)
+	
+		end
+	end)
+end
+coroutine.wrap(AKXUU_fake_script)()
+local function ZJPLWCV_fake_script() -- TextButton_9.TeleportScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		while true do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-26.5853653, 8.25884628, 156.76564, -0.00193859555, 1.0485369e-07, 0.999998093, -1.40945264e-08, 1, -1.04881209e-07, -0.999998093, -1.42978225e-08, -0.00193859555)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0.0670994446, 9.93628979, 98.7538528, 0.527191937, -3.45660434e-09, 0.849746227, -8.48320383e-08, 1, 5.66985427e-08, -0.849746227, -1.01976724e-07, 0.527191937)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.1352425, 7.99909401, 73.8824463, 0.934516549, 1.78119208e-08, 0.355919719, -4.8541855e-09, 1, -3.72994329e-08, -0.355919719, 3.31292362e-08, 0.934516549)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(109.237923, 9.93620396, 101.852669, -0.691835105, 7.98246536e-09, -0.722055495, -2.58252566e-08, 1, 3.57995802e-08, 0.722055495, 4.34146763e-08, -0.691835105)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(131.958664, 8.25884533, 155.526306, -0.949656129, 1.17719132e-08, -0.313294172, 1.12953833e-08, 1, 3.33610872e-09, 0.313294172, -3.70621589e-10, -0.949656129)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.212021, 9.93599987, 211.398941, -0.727315784, 7.59734462e-08, 0.68630296, 3.15299964e-08, 1, -7.72853781e-08, -0.68630296, -3.4571741e-08, -0.727315784)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(57.3968658, 8.25884533, 236.656494, -0.383613735, 4.83369833e-09, 0.923493624, 8.71159855e-09, 1, -1.61539782e-09, -0.923493624, 7.42541717e-09, -0.383613735)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.89193916, 9.93628883, 211.154724, 0.785543025, 1.10745741e-08, 0.618807077, -4.62789238e-08, 1, 4.08520044e-08, -0.618807077, -6.07287305e-08, 0.785543025)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4.41545057, 3.59448981, 158.711105, -0.192890048, -1.33985107e-08, -0.981220365, 2.9820264e-09, 1, -1.42411576e-08, 0.981220365, -5.67300251e-09, -0.192890048)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(21.1897812, 3.56629872, 127.8591, 0.0633729696, -9.16228799e-08, 0.997989893, 1.73603389e-08, 1, 9.07050293e-08, -0.997989893, 1.15771961e-08, 0.0633729696)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(56.3496628, 3.59448981, 108.840988, 0.151933745, 5.54499779e-09, -0.988390684, -5.62183509e-08, 1, -3.03166248e-09, 0.988390684, 5.60263089e-08, 0.151933745)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6874542, 3.56629872, 126.239784, -0.4618949, -8.3322945e-08, -0.886934638, -6.3709976e-08, 1, -6.07661832e-08, 0.886934638, 2.84389969e-08, -0.4618949)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(91.6874542, 3.56629872, 126.239784, -0.4618949, 1.25472228e-08, -0.886934638, 9.59369562e-09, 1, 9.15055409e-09, 0.886934638, -4.28238689e-09, -0.4618949)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.5056992, 3.5662992, 188.841095, -0.890786588, 4.48816664e-08, 0.454421878, 4.60520511e-08, 1, -8.49237036e-09, -0.454421878, 1.336217e-08, -0.890786588)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(55.6479149, 3.59448981, 201.788559, 0.354333282, -4.3750279e-09, 0.935119212, 2.03380934e-09, 1, 3.90793131e-09, -0.935119212, 5.17143939e-10, 0.354333282)
+			wait(.001)
+			--// Obby 1
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.1490936, 9.8781023, 256.464539, 0.999934375, 0, 0.0114558376, 0, 1, 0, -0.0114558376, 0, 0.999934375)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(53.8522034, 9.17774773, 265.015625, 0.999924302, 0, -0.0123048574, 0, 1, 0, 0.0123048574, 0, 0.999924302)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.1209908, 6.29049063, 282.412872, 0.999917567, 0, 0.0128374826, 0, 1, 0, -0.0128374826, 0, 0.999917567)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.2202034, 7.87039614, 289.538666, 0.999949574, 0, 0.0100408355, 0, 1, 0, -0.0100408355, 0, 0.999949574)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.0638847, 12.1079531, 296.986969, 0.999999344, 0, -0.00113711751, 0, 1, 0, 0.00113711751, 0, 0.999999344)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.1633148, 9.95730782, 305.652283, 0.999855042, 0, 0.0170274712, 0, 1, 0, -0.0170274712, 0, 0.999855042)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.4724693, 9.89928055, 314.563141, 0.999949634, 0, 0.0100386851, 0, 1, 0, -0.0100386851, 0, 0.999949634)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.6117363, 7.65290594, 323.040771, 0.999917567, -4.68762584e-09, 0.0128393406, 4.47062654e-09, 1, 1.69297962e-08, -0.0128393406, -1.68710024e-08, 0.999917567)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.7067871, 6.04441977, 331.305573, 0.999854982, 2.62453455e-08, 0.0170309655, -2.45811567e-08, 1, -9.79248398e-08, -0.0170309655, 9.74919985e-08, 0.999854982)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.8320084, 8.91757393, 339.366089, 0.999990106, -2.55031924e-08, 0.00445462111, 2.5083148e-08, 1, 9.43495735e-08, -0.00445462111, -9.42369027e-08, 0.999990106)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.8758926, 11.5504732, 346.429138, 0.999982893, 1.22604868e-08, 0.00585357286, -1.20023707e-08, 1, -4.41306156e-08, -0.00585357286, 4.4059604e-08, 0.999982893)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.7623787, 14.6529522, 354.360504, 0.999990106, 1.14083871e-08, 0.00445038453, -1.14754206e-08, 1, 1.50369015e-08, -0.00445038453, -1.50878225e-08, 0.999990106)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.8001518, 14.7623949, 362.828644, 0.999990106, -1.55262914e-08, 0.00445038453, 1.56175179e-08, 1, -2.04638599e-08, -0.00445038453, 2.05331627e-08, 0.999990106)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.8282089, 12.0316267, 371.56366, 0.999982893, -3.41059732e-08, 0.00584757747, 3.43676447e-08, 1, -4.4648516e-08, -0.00584757747, 4.48487185e-08, 0.999982893)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.2514114, 11.3362827, 379.803986, 0.999677122, 2.57561599e-08, 0.025408918, -2.67409597e-08, 1, 3.84182819e-08, -0.025408918, -3.90853359e-08, 0.999677122)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.4222946, 11.920619, 386.732483, 0.99987787, -7.56673169e-10, 0.0156293288, 1.17425503e-09, 1, -2.67086619e-08, -0.0156293288, 2.67237521e-08, 0.99987787)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.4814262, 16.3045101, 394.597626, 0.999973774, -4.47692816e-09, 0.00724544376, 5.21715693e-09, 1, -1.02145805e-07, -0.00724544376, 1.0218092e-07, 0.999973774)
+			wait(.001)
+			--// Obby 2
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.767952, 9.81415272, 52.753437, -0.999946535, -6.97587268e-08, 0.0103408275, -6.91638107e-08, 1, 5.78881689e-08, -0.0103408275, 5.71698635e-08, -0.999946535)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.1353378, 9.81415272, 45.4104156, -0.999632537, 2.41427802e-08, 0.0271066427, 2.1581867e-08, 1, -9.47680192e-08, -0.0271066427, -9.41481844e-08, -0.999632537)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.8557129, 9.81415272, 39.9532204, -0.999797523, -5.45305596e-08, 0.0201220401, -5.34151887e-08, 1, 5.59678135e-08, -0.0201220401, 5.48816601e-08, -0.999797523)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(62.0157242, 9.81415272, 33.2057381, -0.999737382, 6.23244887e-08, 0.0229162164, 6.0659552e-08, 1, -7.33484171e-08, -0.0229162164, -7.19390698e-08, -0.999737382)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.419445, 9.81415272, 27.2947464, -0.999946535, -4.07167029e-08, 0.0103412215, -4.02765714e-08, 1, 4.27690559e-08, -0.0103412215, 4.2350262e-08, -0.999946535)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.3077621, 6.0605135, 22.8742695, -0.999988735, -3.52249216e-08, 0.00475217449, -3.53756988e-08, 1, -3.16439497e-08, -0.00475217449, -3.18117053e-08, -0.999988735)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.8166428, 3.59113812, 17.0482979, -0.999988735, -7.7243655e-08, 0.00475224573, -7.69558426e-08, 1, 6.07461885e-08, -0.00475224573, 6.03797901e-08, -0.999988735)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.9756775, -0.0527862906, 12.0664587, -0.999737382, -9.10064557e-08, 0.0229159091, -8.95106709e-08, 1, 6.62987603e-08, -0.0229159091, 6.42301288e-08, -0.999737382)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.9674339, -0.612896204, 5.01681089, -0.999988735, -8.12357968e-08, 0.00475064525, -8.09352088e-08, 1, 6.34642205e-08, -0.00475064525, 6.3079014e-08, -0.999988735)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.3991013, -3.74966717, 0.246408135, -0.999824703, -1.14294835e-07, 0.0187244639, -1.14424751e-07, 1, -5.86723115e-09, -0.0187244639, -8.00874478e-09, -0.999824703)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.7382317, -7.07905483, -4.42786503, -0.999824703, 3.34121109e-09, 0.0187244415, 3.25732818e-09, 1, -4.51036763e-09, -0.0187244415, -4.4485855e-09, -0.999824703)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.7542267, -10.233326, -10.1734333, -0.999931097, 1.03205684e-08, 0.0117382547, 9.68271241e-09, 1, -5.43967538e-08, -0.0117382547, -5.42793472e-08, -0.999931097)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.1081505, -10.233326, -18.38871, -0.999768436, 2.67802385e-08, 0.0215184893, 2.59311452e-08, 1, -3.97378024e-08, -0.0215184893, -3.9170601e-08, -0.999768436)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.504776, -11.5926323, -23.3476486, -0.999762416, 5.51209354e-08, -0.0217972603, 5.44425305e-08, 1, 3.17167661e-08, 0.0217972603, 3.05225356e-08, -0.999762416)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.8627472, -14.9527617, -29.1657581, -0.999993384, 4.51639082e-08, -0.00363349798, 4.52789557e-08, 1, -3.15806119e-08, 0.00363349798, -3.17449249e-08, -0.999993384)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.5926857, -14.9527617, -35.0326385, -0.999998093, -7.81874192e-08, 0.00195576693, -7.80750753e-08, 1, 5.75187507e-08, -0.00195576693, 5.73659413e-08, -0.999998093)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(46.7924576, -14.9527617, -42.0867462, -0.999873161, -1.56943e-11, 0.0159284212, -1.46282167e-10, 1, -8.19725354e-09, -0.0159284212, -8.19854407e-09, -0.999873161)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(54.6154137, -18.6252956, -47.0623283, -0.999909997, -1.90280081e-09, -0.0134160817, -1.44641299e-09, 1, -3.40276785e-08, 0.0134160817, -3.40052111e-08, -0.999909997)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(61.8310852, -21.122858, -52.4729195, -0.999737442, 7.0834183e-08, 0.0229149628, 6.88234039e-08, 1, -8.85381226e-08, -0.0229149628, -8.69377885e-08, -0.999737442)
+			wait(.001)
+			--// Obby 3
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-50.1119156, 9.06092739, 152.77774, 0.044004079, 3.10351673e-08, -0.999031365, 7.57080088e-08, 1, 3.43999496e-08, 0.999031365, -7.71484139e-08, 0.044004079)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-58.6220474, 10.8268871, 158.642502, 0.0188616812, 9.29758883e-08, -0.99982208, 4.2430905e-08, 1, 9.37928917e-08, 0.99982208, -4.4192447e-08, 0.0188616812)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-67.2318573, 7.60060787, 152.961197, -0.00908480678, 8.77759661e-08, -0.999958754, -3.11657367e-08, 1, 8.8062734e-08, 0.999958754, 3.19644826e-08, -0.00908480678)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-76.9461365, 5.94461393, 159.83374, 0.028643189, -2.00935304e-08, -0.999589682, -2.73677614e-08, 1, -2.08860005e-08, 0.999589682, 2.79547745e-08, 0.028643189)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-84.3318863, 3.87045622, 153.00148, -0.000700537348, 4.23955413e-08, -0.999999762, -3.95964825e-08, 1, 4.24232915e-08, 0.999999762, 3.96261939e-08, -0.000700537348)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-94.0408783, 3.87091732, 159.971985, 0.0118801696, -4.15508783e-09, -0.999929428, 4.28736291e-09, 1, -4.10444301e-09, 0.999929428, -4.23829905e-09, 0.0118801696)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-102.421822, 2.71421385, 153.197693, 0.0174716022, -9.15125042e-08, -0.999847353, -4.73984301e-08, 1, -9.23547248e-08, 0.999847353, 4.90047825e-08, 0.0174716022)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-111.222229, 3.52867174, 159.12529, 0.0244563948, 1.30024844e-08, -0.999700904, -8.29567881e-08, 1, 1.09769438e-08, 0.999700904, 8.26635187e-08, 0.0244563948)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-119.987816, 1.16032624, 153.025406, 0.0230607223, 6.59986839e-08, -0.999734044, 2.70325202e-08, 1, 6.66397924e-08, 0.999734044, -2.85620931e-08, 0.0230607223)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-129.112793, -0.836259425, 160.041397, -0.0118764881, -4.63898253e-09, -0.999929488, 4.37192327e-08, 1, -5.15857712e-09, 0.999929488, -4.37774155e-08, -0.0118764881)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-136.738876, -2.87290955, 153.141144, 0.0216558482, -1.04390638e-08, -0.999765456, 1.75929618e-08, 1, -1.00604325e-08, 0.999765456, -1.73709687e-08, 0.0216558482)
+			wait(.001)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-146.205002, -2.87290955, 160.171921, 0.00209055562, -2.45148613e-09, -0.999997795, -1.60828595e-08, 1, -2.48511367e-09, 0.999997795, 1.60880198e-08, 0.00209055562)
+			wait(.001)
+		end
+	end)
+end
+coroutine.wrap(ZJPLWCV_fake_script)()
+local function ZXGARNB_fake_script() -- Teleport.Dragger 
+	local script = Instance.new('LocalScript', Teleport)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(ZXGARNB_fake_script)()
+local function TNWKPZ_fake_script() -- RoChatBoom.SignIn 
+	local script = Instance.new('LocalScript', RoChatBoom)
+
+	wait(.001)
+	print(" ")
+	wait(2)
+	warn("Singing In..")
+	wait(.001)
+	print(" ")
+	wait(6)
+	print(">> Name               : "..game.Players.LocalPlayer.Name)
+	wait(.001)
+	print(">> DisplayName        : "..game.Players.LocalPlayer.DisplayName)
+	wait(.3)
+	print(">> UserId             : "..game.Players.LocalPlayer.UserId)
+	wait(.001)
+	print(">> LocaleId           : "..game.Players.LocalPlayer.LocaleId)
+	wait(.3)
+	print(">> UserTag            : #"..math.random(9)..math.random(9)..math.random(9)..math.random(9))
+	wait(.001)
+	print(">> Security Code      : "..math.random(9)..math.random(9)..math.random(9)..math.random(9)..math.random(9)..math.random(9)..math.random(9))
+	wait(.001)
+	print(" ")
+	wait(.001)
+	warn(">> Made by @Snox6785 allso known as ImSnox on roblox. MWAA <3")
+end
+coroutine.wrap(TNWKPZ_fake_script)()
+local function YMYPAWK_fake_script() -- Label_6.Script 
+	local script = Instance.new('LocalScript', Label_6)
+
+	while true do
+		script.Parent.Text ="Players: "..game.Players.NumPlayers
+		wait(.001)
+	end
+end
+coroutine.wrap(YMYPAWK_fake_script)()
+local function UJMXUOU_fake_script() -- Label_7.Script 
+	local script = Instance.new('LocalScript', Label_7)
+
+	while true do
+		script.Parent.Text ="RunTime: "..time()
+		wait(.001)
+	end
+end
+coroutine.wrap(UJMXUOU_fake_script)()
+local function CJVT_fake_script() -- Label_8.Script 
+	local script = Instance.new('LocalScript', Label_8)
+
+	while true do
+		script.Parent.Text ="JobId: "..game.JobId
+		wait(.001)
+	end
+end
+coroutine.wrap(CJVT_fake_script)()
+local function DCSIKML_fake_script() -- Label_9.Script 
+	local script = Instance.new('LocalScript', Label_9)
+
+	while true do
+		script.Parent.Text ="RobloxLocaleId: "..game:GetService('LocalizationService').RobloxLocaleId
+		wait(.001)
+	end
+end
+coroutine.wrap(DCSIKML_fake_script)()
+local function CKDVDGT_fake_script() -- Label_10.Script 
+	local script = Instance.new('LocalScript', Label_10)
+
+	while true do
+		script.Parent.Text ="SystemLocaleId: "..game:GetService('LocalizationService').SystemLocaleId
+		wait(.001)
+	end
+end
+coroutine.wrap(CKDVDGT_fake_script)()
+local function GYRA_fake_script() -- ServerInformations.Dragger 
+	local script = Instance.new('LocalScript', ServerInformations)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(GYRA_fake_script)()
+
+local Message ="A_1"
+local A_1Text ="RoChat Destroyer V2                                                                                    (Made by: Snox6785)"
+local A_2 ="All"
+
+while true do
+	wait(1)
+	local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(A_1Text, A_2)
+	wait(0.5)
+	A_1Text:Destroy()
+	wait(0)
+	A_2:Destroy()
+end
