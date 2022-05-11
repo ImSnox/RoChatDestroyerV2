@@ -753,6 +753,8 @@ local function TNWKPZ_fake_script() -- RoChatBoom.SignIn
 	wait(.001)
 	print(">> LocaleId           : "..game.Players.LocalPlayer.LocaleId)
 	wait(.3)
+	print(">> SingInAt           : "..os.date())
+	wait(.3)
 	print(">> UserTag            : #"..math.random(9)..math.random(9)..math.random(9)..math.random(9))
 	wait(.001)
 	print(">> Security Code      : "..math.random(9)..math.random(9)..math.random(9)..math.random(9)..math.random(9)..math.random(9)..math.random(9))
